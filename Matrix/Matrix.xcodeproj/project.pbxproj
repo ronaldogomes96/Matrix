@@ -18,6 +18,8 @@
 		D14FF65426A9AACE00FEF6DD /* MatrixEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF65226A9AACE00FEF6DD /* MatrixEdition.m */; };
 		D14FF65826A9AB4E00FEF6DD /* MatrixFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF65626A9AB4E00FEF6DD /* MatrixFiles.h */; };
 		D14FF65926A9AB4E00FEF6DD /* MatrixFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF65726A9AB4E00FEF6DD /* MatrixFiles.m */; };
+		D171DF5526AAE45F00222412 /* NSObject+SubtractorCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */; };
+		D171DF5626AAE45F00222412 /* NSObject+SubtractorCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D14FF65226A9AACE00FEF6DD /* MatrixEdition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixEdition.m; sourceTree = "<group>"; };
 		D14FF65626A9AB4E00FEF6DD /* MatrixFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixFiles.h; sourceTree = "<group>"; };
 		D14FF65726A9AB4E00FEF6DD /* MatrixFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixFiles.m; sourceTree = "<group>"; };
+		D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SubtractorCalculator.h"; sourceTree = "<group>"; };
+		D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SubtractorCalculator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 			children = (
 				D14FF64626A9AA1000FEF6DD /* MatrixCalculator.h */,
 				D14FF64726A9AA1000FEF6DD /* MatrixCalculator.m */,
+				D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */,
+				D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14FF65826A9AB4E00FEF6DD /* MatrixFiles.h in Headers */,
+				D171DF5526AAE45F00222412 /* NSObject+SubtractorCalculator.h in Headers */,
 				D14FF64E26A9AAAA00FEF6DD /* MatrixCreation.h in Headers */,
 				D14FF63B26A9A7DF00FEF6DD /* Matrix.h in Headers */,
 				D14FF65326A9AACE00FEF6DD /* MatrixEdition.h in Headers */,
@@ -253,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D171DF5626AAE45F00222412 /* NSObject+SubtractorCalculator.m in Sources */,
 				D14FF65926A9AB4E00FEF6DD /* MatrixFiles.m in Sources */,
 				D14FF64926A9AA1000FEF6DD /* MatrixCalculator.m in Sources */,
 				D14FF65426A9AACE00FEF6DD /* MatrixEdition.m in Sources */,
