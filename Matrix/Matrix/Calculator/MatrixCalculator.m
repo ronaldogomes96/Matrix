@@ -12,7 +12,11 @@
 
 -(NSMutableArray*) subtraction: (NSMutableArray*) matrixOne
                       toMatrix: (NSMutableArray*) matrixTwo {
-    return [self subtraction:matrixOne toMatrix:matrixTwo];
+    @try {
+        return [self subtraction:matrixOne toMatrix:matrixTwo];
+     } @catch (NSException *exception) {
+         NSLog(@"%@", exception.reason);
+     }
 }
 
 @end
