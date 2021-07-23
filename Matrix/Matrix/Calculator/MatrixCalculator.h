@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MatrixCalculator : NSObject
 
+-(NSMutableArray*) subtraction: (NSMutableArray*) matrixOne
+              toMatrix: (NSMutableArray*) matrixTwo;
+
 @end
 
 NS_ASSUME_NONNULL_END
