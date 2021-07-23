@@ -9,12 +9,23 @@
 
 @implementation MatrixCalculator (SumCalculator)
 
--(NSMutableArray*) sum:(NSMutableArray*) matrixOne toMatrix:(NSMutableArray*) matrixTwo {
-    NSMutableArray *result = [[NSMutableArray alloc] init];
+-(NSMutableArray* _Nullable) sum:(NSMutableArray*) matrixOne toMatrix:(NSMutableArray*) matrixTwo {
     
-    //check if the matrices are null 
+    //check if the matrices are null
+    NSException *nullException = [NSException exceptionWithName:@"NullException" reason:@"The matrix is null" userInfo:nil];
+    
+    if (matrixOne.count == 0 || matrixTwo.count == 0) {
+        @throw nullException;
+    }
     
     //check if the dimensions are equal
+    NSException *dimensionException = [NSException exceptionWithName:@"DimensionException" reason:@"The dimensions are not equal" userInfo:nil];
+    
+    if (matrixOne.count != matrixTwo.count || [matrixOne.firstObject count] != [matrixTwo.firstObject count]) {
+        @throw dimensionException;
+    }
+    
+    NSMutableArray *result = [[NSMutableArray alloc] init];
     
     for (int i=0; i < [matrixOne count]; i++) {
         

@@ -20,6 +20,7 @@
 		D14FF65926A9AB4E00FEF6DD /* MatrixFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF65726A9AB4E00FEF6DD /* MatrixFiles.m */; };
 		D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */; };
 		D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */; };
+		D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D14FF65726A9AB4E00FEF6DD /* MatrixFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixFiles.m; sourceTree = "<group>"; };
 		D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+SumCalculator.h"; sourceTree = "<group>"; };
 		D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+SumCalculator.m"; sourceTree = "<group>"; };
+		D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixSumCalculatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				D14FF63826A9A7DF00FEF6DD /* MatrixTests.m */,
 				D14FF63A26A9A7DF00FEF6DD /* Info.plist */,
+				D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */,
 			);
 			path = MatrixTests;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */,
 				D14FF63926A9A7DF00FEF6DD /* MatrixTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,7 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				DEVELOPMENT_TEAM = 2V8P924DLJ;
 				INFOPLIST_FILE = MatrixTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,7 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				DEVELOPMENT_TEAM = 2V8P924DLJ;
 				INFOPLIST_FILE = MatrixTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
