@@ -18,7 +18,6 @@
 @property NSMutableArray *rowsOne;
 @property NSMutableArray *rowsTwo;
 
-
 @end
 
 @implementation MatrixSumCalculatorTests
