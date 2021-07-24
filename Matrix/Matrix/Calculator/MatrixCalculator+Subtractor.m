@@ -1,13 +1,13 @@
 //
-//  NSObject+SubtractorCalculator.m
+//  MatrixCalculator+Subtractor.m
 //  Matrix
 //
 //  Created by Ronaldo Gomes on 23/07/21.
 //
 
-#import "NSObject+SubtractorCalculator.h"
+#import "MatrixCalculator+Subtractor.h"
 
-@implementation NSObject (SubtractorCalculator)
+@implementation MatrixCalculator (Subtractor)
 
 - (NSMutableArray * _Nullable)subtraction: (NSMutableArray *)matrixOne toMatrix:(NSMutableArray *)matrixTwo {
     //check if the matrices are null

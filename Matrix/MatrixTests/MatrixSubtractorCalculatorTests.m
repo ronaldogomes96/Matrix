@@ -52,7 +52,7 @@
 }
 
 - (void) test_subtraction_emptyMatrix_returnsNil {
-    NSMutableArray *result = [self.matrixCalculator subtraction:self.matrixOne toMatrix:self.matrixTwo];
+    NSMutableArray *result = [self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo];
 
     XCTAssertNil(result);
 }
@@ -65,7 +65,7 @@
     [self.matrixTwo insertObject:self.rowsOne atIndex:0];
     
     //when
-    NSMutableArray *result = [self.matrixCalculator subtraction:self.matrixOne toMatrix:self.matrixTwo];
+    NSMutableArray *result = [self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo];
     
     //then
     XCTAssertNil(result);
@@ -97,7 +97,7 @@
     [self.matrixTwo  insertObject:self.rowsFour atIndex:1];
     
     //when
-    NSMutableArray *result = [self.matrixCalculator subtraction:self.matrixOne toMatrix:self.matrixTwo];
+    NSMutableArray *result = [self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo];
     
     //then
     XCTAssertEqualObjects(result, expectedResult);

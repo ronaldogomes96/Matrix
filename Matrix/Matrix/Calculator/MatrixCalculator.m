@@ -7,7 +7,7 @@
 
 #import "MatrixCalculator.h"
 #import "MatrixCalculator+SumCalculator.h"
-#import "NSObject+SubtractorCalculator.h"
+#import "MatrixCalculator+Subtractor.h"
 #import "MatrixCalculator+MultiplicationByScalar.h"
 
 @implementation MatrixCalculator
@@ -25,10 +25,10 @@
     }
 }
 
--(NSMutableArray*) subtraction: (NSMutableArray*) matrixOne
+-(NSMutableArray*) subtractionMatrix: (NSMutableArray*) matrixOne
                       toMatrix: (NSMutableArray*) matrixTwo {
     @try {
-        return [self subtraction:matrixOne toMatrix:matrixTwo];
+        return [self subtraction: matrixOne toMatrix:matrixTwo];
      } @catch (NSException *exception) {
          NSLog(@"%@", exception.reason);
      }
