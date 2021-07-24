@@ -21,6 +21,9 @@
 		D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */; };
 		D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */; };
 		D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */; };
+		D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */ = {isa = PBXBuildFile; fileRef = D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */; };
+		D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */ = {isa = PBXBuildFile; fileRef = D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */; };
+		D876734626AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+SumCalculator.h"; sourceTree = "<group>"; };
 		D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+SumCalculator.m"; sourceTree = "<group>"; };
 		D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixSumCalculatorTests.m; sourceTree = "<group>"; };
+		D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+MultiplicationByScalar.h"; sourceTree = "<group>"; };
+		D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+MultiplicationByScalar.m"; sourceTree = "<group>"; };
+		D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixMultiplicationByScalarTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 				D14FF63826A9A7DF00FEF6DD /* MatrixTests.m */,
 				D14FF63A26A9A7DF00FEF6DD /* Info.plist */,
 				D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */,
+				D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */,
 			);
 			path = MatrixTests;
 			sourceTree = "<group>";
@@ -120,6 +127,8 @@
 				D14FF64726A9AA1000FEF6DD /* MatrixCalculator.m */,
 				D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */,
 				D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */,
+				D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */,
+				D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14FF65826A9AB4E00FEF6DD /* MatrixFiles.h in Headers */,
+				D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */,
 				D14FF64E26A9AAAA00FEF6DD /* MatrixCreation.h in Headers */,
 				D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */,
 				D14FF63B26A9A7DF00FEF6DD /* Matrix.h in Headers */,
@@ -266,6 +276,7 @@
 				D14FF65926A9AB4E00FEF6DD /* MatrixFiles.m in Sources */,
 				D14FF64926A9AA1000FEF6DD /* MatrixCalculator.m in Sources */,
 				D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */,
+				D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */,
 				D14FF65426A9AACE00FEF6DD /* MatrixEdition.m in Sources */,
 				D14FF64F26A9AAAA00FEF6DD /* MatrixCreation.m in Sources */,
 			);
@@ -276,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */,
+				D876734626AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m in Sources */,
 				D14FF63926A9A7DF00FEF6DD /* MatrixTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
