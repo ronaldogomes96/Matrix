@@ -20,6 +20,7 @@
 		D14FF65926A9AB4E00FEF6DD /* MatrixFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF65726A9AB4E00FEF6DD /* MatrixFiles.m */; };
 		D171DF5526AAE45F00222412 /* NSObject+SubtractorCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */; };
 		D171DF5626AAE45F00222412 /* NSObject+SubtractorCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */; };
+		D171DF5A26AB04A300222412 /* MatrixSubtractorCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D14FF65726A9AB4E00FEF6DD /* MatrixFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixFiles.m; sourceTree = "<group>"; };
 		D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SubtractorCalculator.h"; sourceTree = "<group>"; };
 		D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SubtractorCalculator.m"; sourceTree = "<group>"; };
+		D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixSubtractorCalculatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				D14FF63826A9A7DF00FEF6DD /* MatrixTests.m */,
+				D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */,
 				D14FF63A26A9A7DF00FEF6DD /* Info.plist */,
 			);
 			path = MatrixTests;
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14FF63926A9A7DF00FEF6DD /* MatrixTests.m in Sources */,
+				D171DF5A26AB04A300222412 /* MatrixSubtractorCalculatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
