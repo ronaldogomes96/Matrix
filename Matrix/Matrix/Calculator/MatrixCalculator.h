@@ -13,6 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(NSMutableArray*) subtraction: (NSMutableArray*) matrixOne
               toMatrix: (NSMutableArray*) matrixTwo;
+-(NSMutableArray*) sumMatrix: (NSMutableArray*) matrixOne
+                    toMatrix: (NSMutableArray*) matrixTwo;
+
+-(NSMutableArray*) multiplyMatrix: (NSMutableArray*) matrix
+                    toScalar: (NSNumber*) scalar;
+
 
 @end
 

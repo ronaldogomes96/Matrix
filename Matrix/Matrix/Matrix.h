@@ -1,10 +1,3 @@
-//
-//  Matrix.h
-//  Matrix
-//
-//  Created by Ronaldo Gomes on 22/07/21.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for Matrix.

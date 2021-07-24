@@ -21,6 +21,12 @@
 		D171DF5526AAE45F00222412 /* NSObject+SubtractorCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */; };
 		D171DF5626AAE45F00222412 /* NSObject+SubtractorCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */; };
 		D171DF5A26AB04A300222412 /* MatrixSubtractorCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */; };
+		D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */; };
+		D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */; };
+		D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */; };
+		D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */ = {isa = PBXBuildFile; fileRef = D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */; };
+		D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */ = {isa = PBXBuildFile; fileRef = D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */; };
+		D876734626AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SubtractorCalculator.h"; sourceTree = "<group>"; };
 		D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SubtractorCalculator.m"; sourceTree = "<group>"; };
 		D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixSubtractorCalculatorTests.m; sourceTree = "<group>"; };
+		D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+SumCalculator.h"; sourceTree = "<group>"; };
+		D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+SumCalculator.m"; sourceTree = "<group>"; };
+		D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixSumCalculatorTests.m; sourceTree = "<group>"; };
+		D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+MultiplicationByScalar.h"; sourceTree = "<group>"; };
+		D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+MultiplicationByScalar.m"; sourceTree = "<group>"; };
+		D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixMultiplicationByScalarTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				D14FF63826A9A7DF00FEF6DD /* MatrixTests.m */,
+				D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */,
 				D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */,
+				D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */,
 				D14FF63A26A9A7DF00FEF6DD /* Info.plist */,
 			);
 			path = MatrixTests;
@@ -120,6 +134,10 @@
 				D14FF64726A9AA1000FEF6DD /* MatrixCalculator.m */,
 				D171DF5326AAE45F00222412 /* NSObject+SubtractorCalculator.h */,
 				D171DF5426AAE45F00222412 /* NSObject+SubtractorCalculator.m */,
+				D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */,
+				D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */,
+				D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */,
+				D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -160,7 +178,9 @@
 			files = (
 				D14FF65826A9AB4E00FEF6DD /* MatrixFiles.h in Headers */,
 				D171DF5526AAE45F00222412 /* NSObject+SubtractorCalculator.h in Headers */,
+				D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */,
 				D14FF64E26A9AAAA00FEF6DD /* MatrixCreation.h in Headers */,
+				D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */,
 				D14FF63B26A9A7DF00FEF6DD /* Matrix.h in Headers */,
 				D14FF65326A9AACE00FEF6DD /* MatrixEdition.h in Headers */,
 				D14FF64826A9AA1000FEF6DD /* MatrixCalculator.h in Headers */,
@@ -266,6 +286,8 @@
 				D171DF5626AAE45F00222412 /* NSObject+SubtractorCalculator.m in Sources */,
 				D14FF65926A9AB4E00FEF6DD /* MatrixFiles.m in Sources */,
 				D14FF64926A9AA1000FEF6DD /* MatrixCalculator.m in Sources */,
+				D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */,
+				D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */,
 				D14FF65426A9AACE00FEF6DD /* MatrixEdition.m in Sources */,
 				D14FF64F26A9AAAA00FEF6DD /* MatrixCreation.m in Sources */,
 			);
@@ -275,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */,
+				D876734626AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m in Sources */,
 				D14FF63926A9A7DF00FEF6DD /* MatrixTests.m in Sources */,
 				D171DF5A26AB04A300222412 /* MatrixSubtractorCalculatorTests.m in Sources */,
 			);
@@ -414,7 +438,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -437,7 +461,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -459,7 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				DEVELOPMENT_TEAM = 2V8P924DLJ;
 				INFOPLIST_FILE = MatrixTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,7 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				DEVELOPMENT_TEAM = 2V8P924DLJ;
 				INFOPLIST_FILE = MatrixTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
