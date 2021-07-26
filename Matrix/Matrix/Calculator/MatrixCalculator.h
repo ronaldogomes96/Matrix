@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSMutableArray*) multiplyMatrix: (NSMutableArray*) matrix
                     toScalar: (NSNumber*) scalar;
 
+-(NSNumber*) meanMatrix: (NSArray*) matrix;
 
 @end
 

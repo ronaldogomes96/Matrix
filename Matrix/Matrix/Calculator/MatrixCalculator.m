@@ -8,6 +8,8 @@
 #import "MatrixCalculator.h"
 #import "MatrixCalculator+SumCalculator.h"
 #import "MatrixCalculator+MultiplicationByScalar.h"
+#import "MatrixCalculator+GetColumn.h"
+#import "MatrixCalculator+MeanCalculator.h"
 
 @implementation MatrixCalculator
 
@@ -34,6 +36,20 @@
     
     
     return [self multiply:matrix toScalar:scalar];
+}
+
+-(NSNumber*) meanMatrix: (NSArray*) matrix {
+    
+    NSMutableArray *multableMatrix = [NSMutableArray arrayWithArray:matrix];
+    
+    //handle exceptions and mean of the rows
+    NSMutableArray *newMatrix = [[NSMutableArray alloc] init];
+    
+    for (int i=0; i < [[matrix firstObject] count]; i++) {
+        [newMatrix addObject: [self getColumn:multableMatrix atPosition:i]];
+    }
+    
+    return [self mean:newMatrix];
 }
 
 @end
