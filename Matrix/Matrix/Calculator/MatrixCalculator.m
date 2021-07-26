@@ -21,7 +21,7 @@
         return result;
         
     } @catch (NSException *exception) {
-        NSLog(@"%@", exception.reason);
+        @throw exception; 
     }
 }
 
