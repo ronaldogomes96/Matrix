@@ -30,7 +30,7 @@
     @try {
         return [self subtraction: matrixOne toMatrix:matrixTwo];
      } @catch (NSException *exception) {
-         NSLog(@"%@", exception.reason);
+         @throw exception; 
      }
 }
 

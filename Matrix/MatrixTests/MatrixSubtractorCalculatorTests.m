@@ -33,6 +33,8 @@
     
     self.rowsOne = [[NSMutableArray alloc] init];
     self.rowsTwo = [[NSMutableArray alloc] init];
+    self.rowsThree = [[NSMutableArray alloc] init];
+    self.rowsFour = [[NSMutableArray alloc] init];
     
     [self.rowsOne addObject:[NSNumber numberWithDouble:2.0]];
     [self.rowsOne addObject:[NSNumber numberWithDouble:4.0]];
@@ -52,9 +54,7 @@
 }
 
 - (void) test_subtraction_emptyMatrix_returnsNil {
-    NSMutableArray *result = [self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo];
-
-    XCTAssertNil(result);
+    XCTAssertThrows([self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo]);
 }
 
 - (void) test_subtraction_differentSizes_returnsNil {
@@ -64,11 +64,9 @@
     
     [self.matrixTwo insertObject:self.rowsOne atIndex:0];
     
-    //when
-    NSMutableArray *result = [self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo];
-    
-    //then
-    XCTAssertNil(result);
+    //Then
+    XCTAssertThrows([self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo]);
+
 }
 
 -(void) test_subtraction_twoArrays_returnsValue {
