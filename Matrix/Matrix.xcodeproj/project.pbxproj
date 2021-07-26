@@ -7,29 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D124E32226ABA37100E4EF10 /* MatrixCalculator+Subtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */; };
+		D10B4CDA26AEE2E40017974C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10B4CD926AEE2E40017974C /* AppDelegate.swift */; };
+		D10B4CDC26AEE2E40017974C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10B4CDB26AEE2E40017974C /* SceneDelegate.swift */; };
+		D10B4CDE26AEE2E40017974C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10B4CDD26AEE2E40017974C /* ViewController.swift */; };
+		D10B4CE126AEE2E40017974C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10B4CDF26AEE2E40017974C /* Main.storyboard */; };
+		D10B4CE326AEE2E50017974C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10B4CE226AEE2E50017974C /* Assets.xcassets */; };
+		D10B4CE626AEE2E50017974C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10B4CE426AEE2E50017974C /* LaunchScreen.storyboard */; };
+		D10B4CED26AEE4150017974C /* Matrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; };
+		D10B4CEE26AEE4150017974C /* Matrix.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D124E32226ABA37100E4EF10 /* MatrixCalculator+Subtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D124E32326ABA37100E4EF10 /* MatrixCalculator+Subtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D124E32126ABA37100E4EF10 /* MatrixCalculator+Subtractor.m */; };
 		D14FF63426A9A7DF00FEF6DD /* Matrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; };
 		D14FF63926A9A7DF00FEF6DD /* MatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF63826A9A7DF00FEF6DD /* MatrixTests.m */; };
 		D14FF63B26A9A7DF00FEF6DD /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF62D26A9A7DF00FEF6DD /* Matrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D14FF64826A9AA1000FEF6DD /* MatrixCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF64626A9AA1000FEF6DD /* MatrixCalculator.h */; };
+		D14FF64826A9AA1000FEF6DD /* MatrixCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF64626A9AA1000FEF6DD /* MatrixCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D14FF64926A9AA1000FEF6DD /* MatrixCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF64726A9AA1000FEF6DD /* MatrixCalculator.m */; };
-		D14FF64E26A9AAAA00FEF6DD /* MatrixCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF64C26A9AAAA00FEF6DD /* MatrixCreation.h */; };
+		D14FF64E26A9AAAA00FEF6DD /* MatrixCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF64C26A9AAAA00FEF6DD /* MatrixCreation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D14FF64F26A9AAAA00FEF6DD /* MatrixCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF64D26A9AAAA00FEF6DD /* MatrixCreation.m */; };
-		D14FF65326A9AACE00FEF6DD /* MatrixEdition.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF65126A9AACE00FEF6DD /* MatrixEdition.h */; };
+		D14FF65326A9AACE00FEF6DD /* MatrixEdition.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF65126A9AACE00FEF6DD /* MatrixEdition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D14FF65426A9AACE00FEF6DD /* MatrixEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF65226A9AACE00FEF6DD /* MatrixEdition.m */; };
-		D14FF65826A9AB4E00FEF6DD /* MatrixFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF65626A9AB4E00FEF6DD /* MatrixFiles.h */; };
+		D14FF65826A9AB4E00FEF6DD /* MatrixFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF65626A9AB4E00FEF6DD /* MatrixFiles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D14FF65926A9AB4E00FEF6DD /* MatrixFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF65726A9AB4E00FEF6DD /* MatrixFiles.m */; };
 		D171DF5A26AB04A300222412 /* MatrixSubtractorCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */; };
-		D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */; };
+		D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */; };
 		D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */; };
-		D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */ = {isa = PBXBuildFile; fileRef = D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */; };
+		D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */ = {isa = PBXBuildFile; fileRef = D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */ = {isa = PBXBuildFile; fileRef = D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */; };
 		D876734626AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D10B4CEF26AEE4150017974C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14FF62126A9A7DF00FEF6DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14FF62926A9A7DF00FEF6DD;
+			remoteInfo = Matrix;
+		};
 		D14FF63526A9A7DF00FEF6DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D14FF62126A9A7DF00FEF6DD /* Project object */;
@@ -39,7 +54,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D10B4CF126AEE4150017974C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D10B4CEE26AEE4150017974C /* Matrix.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D10B4CD726AEE2E40017974C /* MatrixSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10B4CD926AEE2E40017974C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D10B4CDB26AEE2E40017974C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D10B4CDD26AEE2E40017974C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D10B4CE026AEE2E40017974C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10B4CE226AEE2E50017974C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10B4CE526AEE2E50017974C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10B4CE726AEE2E50017974C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10B4CEB26AEE3D30017974C /* MatrixSwiftExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MatrixSwiftExample.entitlements; sourceTree = "<group>"; };
 		D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+Subtractor.h"; sourceTree = "<group>"; };
 		D124E32126ABA37100E4EF10 /* MatrixCalculator+Subtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+Subtractor.m"; sourceTree = "<group>"; };
 		D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Matrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +104,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D10B4CD426AEE2E40017974C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10B4CED26AEE4150017974C /* Matrix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D14FF62726A9A7DF00FEF6DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,12 +130,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D10B4CD826AEE2E40017974C /* MatrixSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				D10B4CEB26AEE3D30017974C /* MatrixSwiftExample.entitlements */,
+				D10B4CD926AEE2E40017974C /* AppDelegate.swift */,
+				D10B4CDB26AEE2E40017974C /* SceneDelegate.swift */,
+				D10B4CDD26AEE2E40017974C /* ViewController.swift */,
+				D10B4CDF26AEE2E40017974C /* Main.storyboard */,
+				D10B4CE226AEE2E50017974C /* Assets.xcassets */,
+				D10B4CE426AEE2E50017974C /* LaunchScreen.storyboard */,
+				D10B4CE726AEE2E50017974C /* Info.plist */,
+			);
+			path = MatrixSwiftExample;
+			sourceTree = "<group>";
+		};
+		D10B4CEC26AEE4150017974C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D14FF62026A9A7DF00FEF6DD = {
 			isa = PBXGroup;
 			children = (
 				D14FF62C26A9A7DF00FEF6DD /* Matrix */,
 				D14FF63726A9A7DF00FEF6DD /* MatrixTests */,
+				D10B4CD826AEE2E40017974C /* MatrixSwiftExample */,
 				D14FF62B26A9A7DF00FEF6DD /* Products */,
+				D10B4CEC26AEE4150017974C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +168,7 @@
 			children = (
 				D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */,
 				D14FF63326A9A7DF00FEF6DD /* MatrixTests.xctest */,
+				D10B4CD726AEE2E40017974C /* MatrixSwiftExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +261,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D10B4CD626AEE2E40017974C /* MatrixSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10B4CEA26AEE2E50017974C /* Build configuration list for PBXNativeTarget "MatrixSwiftExample" */;
+			buildPhases = (
+				D10B4CD326AEE2E40017974C /* Sources */,
+				D10B4CD426AEE2E40017974C /* Frameworks */,
+				D10B4CD526AEE2E40017974C /* Resources */,
+				D10B4CF126AEE4150017974C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10B4CF026AEE4150017974C /* PBXTargetDependency */,
+			);
+			name = MatrixSwiftExample;
+			productName = MatrixSwiftExample;
+			productReference = D10B4CD726AEE2E40017974C /* MatrixSwiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D14FF62926A9A7DF00FEF6DD /* Matrix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D14FF63E26A9A7DF00FEF6DD /* Build configuration list for PBXNativeTarget "Matrix" */;
@@ -232,8 +322,12 @@
 		D14FF62126A9A7DF00FEF6DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					D10B4CD626AEE2E40017974C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					D14FF62926A9A7DF00FEF6DD = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -257,11 +351,22 @@
 			targets = (
 				D14FF62926A9A7DF00FEF6DD /* Matrix */,
 				D14FF63226A9A7DF00FEF6DD /* MatrixTests */,
+				D10B4CD626AEE2E40017974C /* MatrixSwiftExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D10B4CD526AEE2E40017974C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10B4CE626AEE2E50017974C /* LaunchScreen.storyboard in Resources */,
+				D10B4CE326AEE2E50017974C /* Assets.xcassets in Resources */,
+				D10B4CE126AEE2E40017974C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D14FF62826A9A7DF00FEF6DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +384,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D10B4CD326AEE2E40017974C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10B4CDE26AEE2E40017974C /* ViewController.swift in Sources */,
+				D10B4CDA26AEE2E40017974C /* AppDelegate.swift in Sources */,
+				D10B4CDC26AEE2E40017974C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D14FF62626A9A7DF00FEF6DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +422,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D10B4CF026AEE4150017974C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14FF62926A9A7DF00FEF6DD /* Matrix */;
+			targetProxy = D10B4CEF26AEE4150017974C /* PBXContainerItemProxy */;
+		};
 		D14FF63626A9A7DF00FEF6DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D14FF62926A9A7DF00FEF6DD /* Matrix */;
@@ -314,7 +434,72 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		D10B4CDF26AEE2E40017974C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10B4CE026AEE2E40017974C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10B4CE426AEE2E50017974C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10B4CE526AEE2E50017974C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		D10B4CE826AEE2E50017974C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MatrixSwiftExample/MatrixSwiftExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				INFOPLIST_FILE = MatrixSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldogomes.MatrixSwiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10B4CE926AEE2E50017974C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MatrixSwiftExample/MatrixSwiftExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				INFOPLIST_FILE = MatrixSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldogomes.MatrixSwiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D14FF63C26A9A7DF00FEF6DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -518,6 +703,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D10B4CEA26AEE2E50017974C /* Build configuration list for PBXNativeTarget "MatrixSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10B4CE826AEE2E50017974C /* Debug */,
+				D10B4CE926AEE2E50017974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D14FF62426A9A7DF00FEF6DD /* Build configuration list for PBXProject "Matrix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

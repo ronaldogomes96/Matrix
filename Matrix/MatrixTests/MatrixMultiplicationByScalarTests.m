@@ -63,7 +63,7 @@
     [expectedResult insertObject:rowsFour atIndex:1];
     
     //when
-    NSMutableArray *result = [self.matrixCalculator multiplyMatrix:self.matrix toScalar:scalar];
+    NSArray *result = [self.matrixCalculator multiplyMatrix:self.matrix toScalar:scalar];
     
     //then
     XCTAssertEqualObjects(result, expectedResult);
@@ -91,7 +91,7 @@
     [expectedResult insertObject:rowsFour atIndex:1];
     
     //when
-    NSMutableArray *result = [self.matrixCalculator multiplyMatrix:self.matrix toScalar:scalar];
+    NSArray *result = [self.matrixCalculator multiplyMatrix:self.matrix toScalar:scalar];
     
     //then
     XCTAssertEqualObjects(result, expectedResult);
@@ -137,7 +137,7 @@
     [expectedResult insertObject:rowsFour atIndex:1];
     
     //when
-    NSMutableArray *result = [self.matrixCalculator multiplyMatrix:self.matrix toScalar:scalar];
+    NSArray *result = [self.matrixCalculator multiplyMatrix:self.matrix toScalar:scalar];
     
     //then
     XCTAssertEqualObjects(result, expectedResult);
