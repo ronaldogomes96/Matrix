@@ -43,9 +43,7 @@
 
 - (void)testSumWithEmptyMatrix {
     
-    NSMutableArray *result = [self.matrixCalculator sumMatrix:self.matrixOne toMatrix:self.matrixTwo];
-    
-    XCTAssertNil(result);
+    XCTAssertThrows([self.matrixCalculator sumMatrix:self.matrixOne toMatrix:self.matrixTwo]);
 }
 
 - (void)testSumWithMatricesDifferentDimensions {
@@ -56,11 +54,8 @@
     
     [self.matrixTwo insertObject:self.rowsOne atIndex:0];
     
-    //when
-    NSMutableArray *result = [self.matrixCalculator sumMatrix:self.matrixOne toMatrix:self.matrixTwo];
-    
     //then
-    XCTAssertNil(result);
+    XCTAssertThrows([self.matrixCalculator sumMatrix:self.matrixOne toMatrix:self.matrixTwo]);
 }
 
 -(void)testSumMatrix {
