@@ -15,8 +15,17 @@
 		D10B4CE626AEE2E50017974C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10B4CE426AEE2E50017974C /* LaunchScreen.storyboard */; };
 		D10B4CED26AEE4150017974C /* Matrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; };
 		D10B4CEE26AEE4150017974C /* Matrix.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D10B4CFA26AEFC0A0017974C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10B4CF926AEFC0A0017974C /* AppDelegate.m */; };
+		D10B4CFD26AEFC0A0017974C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10B4CFC26AEFC0A0017974C /* SceneDelegate.m */; };
+		D10B4D0026AEFC0A0017974C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10B4CFF26AEFC0A0017974C /* ViewController.m */; };
+		D10B4D0326AEFC0A0017974C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10B4D0126AEFC0A0017974C /* Main.storyboard */; };
+		D10B4D0526AEFC0C0017974C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10B4D0426AEFC0C0017974C /* Assets.xcassets */; };
+		D10B4D0826AEFC0C0017974C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10B4D0626AEFC0C0017974C /* LaunchScreen.storyboard */; };
+		D10B4D0B26AEFC0C0017974C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10B4D0A26AEFC0C0017974C /* main.m */; };
 		D124E32226ABA37100E4EF10 /* MatrixCalculator+Subtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D124E32326ABA37100E4EF10 /* MatrixCalculator+Subtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D124E32126ABA37100E4EF10 /* MatrixCalculator+Subtractor.m */; };
+		D13277F026B031470086EEA8 /* Matrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; };
+		D13277F126B031470086EEA8 /* Matrix.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D14FF63426A9A7DF00FEF6DD /* Matrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */; };
 		D14FF63926A9A7DF00FEF6DD /* MatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14FF63826A9A7DF00FEF6DD /* MatrixTests.m */; };
 		D14FF63B26A9A7DF00FEF6DD /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = D14FF62D26A9A7DF00FEF6DD /* Matrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +54,13 @@
 			remoteGlobalIDString = D14FF62926A9A7DF00FEF6DD;
 			remoteInfo = Matrix;
 		};
+		D13277F226B031480086EEA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14FF62126A9A7DF00FEF6DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14FF62926A9A7DF00FEF6DD;
+			remoteInfo = Matrix;
+		};
 		D14FF63526A9A7DF00FEF6DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D14FF62126A9A7DF00FEF6DD /* Project object */;
@@ -66,6 +82,17 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D13277F426B031480086EEA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D13277F126B031470086EEA8 /* Matrix.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +105,18 @@
 		D10B4CE526AEE2E50017974C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D10B4CE726AEE2E50017974C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10B4CEB26AEE3D30017974C /* MatrixSwiftExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MatrixSwiftExample.entitlements; sourceTree = "<group>"; };
+		D10B4CF626AEFC0A0017974C /* MatrixObjCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixObjCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10B4CF826AEFC0A0017974C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D10B4CF926AEFC0A0017974C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D10B4CFB26AEFC0A0017974C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D10B4CFC26AEFC0A0017974C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D10B4CFE26AEFC0A0017974C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D10B4CFF26AEFC0A0017974C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D10B4D0226AEFC0A0017974C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10B4D0426AEFC0C0017974C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10B4D0726AEFC0C0017974C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10B4D0926AEFC0C0017974C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10B4D0A26AEFC0C0017974C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+Subtractor.h"; sourceTree = "<group>"; };
 		D124E32126ABA37100E4EF10 /* MatrixCalculator+Subtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+Subtractor.m"; sourceTree = "<group>"; };
 		D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Matrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +148,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D10B4CED26AEE4150017974C /* Matrix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10B4CF326AEFC0A0017974C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13277F026B031470086EEA8 /* Matrix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,12 +199,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D10B4CF726AEFC0A0017974C /* MatrixObjCExample */ = {
+			isa = PBXGroup;
+			children = (
+				D10B4CF826AEFC0A0017974C /* AppDelegate.h */,
+				D10B4CF926AEFC0A0017974C /* AppDelegate.m */,
+				D10B4CFB26AEFC0A0017974C /* SceneDelegate.h */,
+				D10B4CFC26AEFC0A0017974C /* SceneDelegate.m */,
+				D10B4CFE26AEFC0A0017974C /* ViewController.h */,
+				D10B4CFF26AEFC0A0017974C /* ViewController.m */,
+				D10B4D0126AEFC0A0017974C /* Main.storyboard */,
+				D10B4D0426AEFC0C0017974C /* Assets.xcassets */,
+				D10B4D0626AEFC0C0017974C /* LaunchScreen.storyboard */,
+				D10B4D0926AEFC0C0017974C /* Info.plist */,
+				D10B4D0A26AEFC0C0017974C /* main.m */,
+			);
+			path = MatrixObjCExample;
+			sourceTree = "<group>";
+		};
 		D14FF62026A9A7DF00FEF6DD = {
 			isa = PBXGroup;
 			children = (
 				D14FF62C26A9A7DF00FEF6DD /* Matrix */,
 				D14FF63726A9A7DF00FEF6DD /* MatrixTests */,
 				D10B4CD826AEE2E40017974C /* MatrixSwiftExample */,
+				D10B4CF726AEFC0A0017974C /* MatrixObjCExample */,
 				D14FF62B26A9A7DF00FEF6DD /* Products */,
 				D10B4CEC26AEE4150017974C /* Frameworks */,
 			);
@@ -169,6 +235,7 @@
 				D14FF62A26A9A7DF00FEF6DD /* Matrix.framework */,
 				D14FF63326A9A7DF00FEF6DD /* MatrixTests.xctest */,
 				D10B4CD726AEE2E40017974C /* MatrixSwiftExample.app */,
+				D10B4CF626AEFC0A0017974C /* MatrixObjCExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +347,25 @@
 			productReference = D10B4CD726AEE2E40017974C /* MatrixSwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D10B4CF526AEFC0A0017974C /* MatrixObjCExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10B4D0C26AEFC0C0017974C /* Build configuration list for PBXNativeTarget "MatrixObjCExample" */;
+			buildPhases = (
+				D10B4CF226AEFC0A0017974C /* Sources */,
+				D10B4CF326AEFC0A0017974C /* Frameworks */,
+				D10B4CF426AEFC0A0017974C /* Resources */,
+				D13277F426B031480086EEA8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13277F326B031480086EEA8 /* PBXTargetDependency */,
+			);
+			name = MatrixObjCExample;
+			productName = MatrixObjCExample;
+			productReference = D10B4CF626AEFC0A0017974C /* MatrixObjCExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D14FF62926A9A7DF00FEF6DD /* Matrix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D14FF63E26A9A7DF00FEF6DD /* Build configuration list for PBXNativeTarget "Matrix" */;
@@ -328,6 +414,9 @@
 					D10B4CD626AEE2E40017974C = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					D10B4CF526AEFC0A0017974C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					D14FF62926A9A7DF00FEF6DD = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -352,6 +441,7 @@
 				D14FF62926A9A7DF00FEF6DD /* Matrix */,
 				D14FF63226A9A7DF00FEF6DD /* MatrixTests */,
 				D10B4CD626AEE2E40017974C /* MatrixSwiftExample */,
+				D10B4CF526AEFC0A0017974C /* MatrixObjCExample */,
 			);
 		};
 /* End PBXProject section */
@@ -364,6 +454,16 @@
 				D10B4CE626AEE2E50017974C /* LaunchScreen.storyboard in Resources */,
 				D10B4CE326AEE2E50017974C /* Assets.xcassets in Resources */,
 				D10B4CE126AEE2E40017974C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10B4CF426AEFC0A0017974C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10B4D0826AEFC0C0017974C /* LaunchScreen.storyboard in Resources */,
+				D10B4D0526AEFC0C0017974C /* Assets.xcassets in Resources */,
+				D10B4D0326AEFC0A0017974C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +491,17 @@
 				D10B4CDE26AEE2E40017974C /* ViewController.swift in Sources */,
 				D10B4CDA26AEE2E40017974C /* AppDelegate.swift in Sources */,
 				D10B4CDC26AEE2E40017974C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10B4CF226AEFC0A0017974C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10B4D0026AEFC0A0017974C /* ViewController.m in Sources */,
+				D10B4CFA26AEFC0A0017974C /* AppDelegate.m in Sources */,
+				D10B4D0B26AEFC0C0017974C /* main.m in Sources */,
+				D10B4CFD26AEFC0A0017974C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +538,11 @@
 			target = D14FF62926A9A7DF00FEF6DD /* Matrix */;
 			targetProxy = D10B4CEF26AEE4150017974C /* PBXContainerItemProxy */;
 		};
+		D13277F326B031480086EEA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14FF62926A9A7DF00FEF6DD /* Matrix */;
+			targetProxy = D13277F226B031480086EEA8 /* PBXContainerItemProxy */;
+		};
 		D14FF63626A9A7DF00FEF6DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D14FF62926A9A7DF00FEF6DD /* Matrix */;
@@ -447,6 +563,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D10B4CE526AEE2E50017974C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D10B4D0126AEFC0A0017974C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10B4D0226AEFC0A0017974C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10B4D0626AEFC0C0017974C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10B4D0726AEFC0C0017974C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -496,6 +628,42 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D10B4D0D26AEFC0C0017974C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				INFOPLIST_FILE = MatrixObjCExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldogomes.MatrixObjCExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10B4D0E26AEFC0C0017974C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69Y77S7YQP;
+				INFOPLIST_FILE = MatrixObjCExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldogomes.MatrixObjCExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -708,6 +876,15 @@
 			buildConfigurations = (
 				D10B4CE826AEE2E50017974C /* Debug */,
 				D10B4CE926AEE2E50017974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10B4D0C26AEFC0C0017974C /* Build configuration list for PBXNativeTarget "MatrixObjCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10B4D0D26AEFC0C0017974C /* Debug */,
+				D10B4D0E26AEFC0C0017974C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
