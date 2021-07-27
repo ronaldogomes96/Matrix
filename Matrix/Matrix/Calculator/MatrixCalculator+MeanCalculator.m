@@ -9,8 +9,7 @@
 
 @implementation MatrixCalculator (MeanCalculator)
 
--(NSNumber*) mean: (NSMutableArray*) matrix {
-    
+-(NSArray*) mean: (NSMutableArray*) matrix {
     
     NSMutableArray *means = [[NSMutableArray alloc] init];
     
@@ -30,13 +29,27 @@
         [means addObject: [NSNumber numberWithDouble: meanPerArray]];
     }
     
-    double result = 0.0;
+    return [NSArray arrayWithObject:means];
+}
+
+-(NSArray*) totalMean: (NSMutableArray *) matrix {
     
-    for(NSNumber *element in means) {
-        result += [element doubleValue];
+    int count = 0, j = 0;
+    double totalSum = 0.0;
+    
+    for (int i=0; i < [matrix count]; i++) {
+
+        for(NSNumber *element in [matrix objectAtIndex:i]) {
+            
+            totalSum += [element doubleValue];
+            ++count;
+            ++j;
+        }
     }
     
-    return [NSNumber numberWithDouble: result/[means count]];
+    NSNumber *total = [NSNumber numberWithDouble: totalSum/count];
+    
+    return [NSArray arrayWithObject:total]; 
 }
 
 @end

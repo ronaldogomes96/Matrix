@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 enum Axis {
     x = 0,
-    y = 1
+    y = 1,
+    total = 2
 };
 
 
@@ -23,7 +24,7 @@ enum Axis {
 -(NSMutableArray*) multiplyMatrix: (NSMutableArray*) matrix
                     toScalar: (NSNumber*) scalar;
 
--(NSNumber*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
+-(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
 
 @end
 

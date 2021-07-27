@@ -38,7 +38,7 @@
     return [self multiply:matrix toScalar:scalar];
 }
 
--(NSNumber*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate {
+-(NSArray*) meanMatrix: (NSArray*) matrix axis:  (enum Axis) coordinate {
     
     NSMutableArray *multableMatrix = [NSMutableArray arrayWithArray:matrix];
     NSMutableArray *newMatrix = [[NSMutableArray alloc] init];
@@ -57,13 +57,15 @@
     
     
     switch (coordinate) {
-        case y:
+        case x:
             for (int i=0; i < [[matrix firstObject] count]; i++) {
                 [newMatrix addObject: [self getColumn:multableMatrix atPosition:i]];
             }
             return [self mean:newMatrix];
-        case x:
+        case y:
             return [self mean:multableMatrix];
+        case total:
+            return [self totalMean:multableMatrix]; 
     }
 }
 

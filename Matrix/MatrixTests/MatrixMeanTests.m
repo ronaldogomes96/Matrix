@@ -43,13 +43,13 @@
 - (void)testMeanCalculationOfRowsWithMutableArray {
     
     //given
-    NSNumber *expectedMean = [NSNumber numberWithDouble:2.0];
+    NSArray *expectedArray = @[@[@2.0, @1.5, @2.5]];
     
     //when
-    NSNumber *resultMean = [self.matrixCalculator meanMatrix:self.matrix axis:x];
+    NSArray *resultArray = [self.matrixCalculator meanMatrix:self.matrix axis:x];
     
     //then
-    XCTAssertEqualObjects(expectedMean, resultMean);
+    XCTAssertEqualObjects(expectedArray, resultArray);
 }
 
 - (void)testNoMatrixException {
@@ -72,10 +72,9 @@
     //given
     NSArray *array = @[@[@3.0, @1.0, @2.0], @[@1.0, @2.0, @3.0]];
     
-    
     //when
-    NSNumber *resultMeanNSArray = [self.matrixCalculator meanMatrix:array axis:x];
-    NSNumber *resultMeanMultableMatrix = [self.matrixCalculator meanMatrix:self.matrix axis:x];
+    NSArray *resultMeanNSArray = [self.matrixCalculator meanMatrix:array axis:y];
+    NSArray *resultMeanMultableMatrix = [self.matrixCalculator meanMatrix:self.matrix axis:y];
     
     XCTAssertEqualObjects(resultMeanNSArray, resultMeanMultableMatrix);
    
@@ -84,12 +83,26 @@
 - (void)testMeanCalculationOfColumnsWithMutableArray {
     
     //given
-    NSNumber *expectedMean = [NSNumber numberWithDouble:2.0];
+    NSArray *expectedArray = @[@[@2.0, @2.0]];
     
     //when
-    NSNumber *resultMean = [self.matrixCalculator meanMatrix:self.matrix axis:y];
+    NSArray *resultArray = [self.matrixCalculator meanMatrix:self.matrix axis:y];
     
     //then
-    XCTAssertEqualObjects(expectedMean, resultMean);
+    XCTAssertEqualObjects(expectedArray, resultArray);
 }
+
+- (void)testTotalMeanCalculatio {
+    
+    //given
+    NSArray *expectedAMean = @[@2.0];
+    
+    //when
+    NSArray *resultMean = [self.matrixCalculator meanMatrix:self.matrix axis:total];
+    
+    //then
+    XCTAssertEqualObjects(expectedAMean, resultMean);
+}
+
+
 @end

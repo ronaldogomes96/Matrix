@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MatrixCalculator (MeanCalculator)
 
--(NSNumber*) mean: (NSMutableArray*) matrix;
+-(NSArray*) mean: (NSMutableArray*) matrix;
+-(NSArray*) totalMean: (NSMutableArray*) matrix;
 
 @end
 
