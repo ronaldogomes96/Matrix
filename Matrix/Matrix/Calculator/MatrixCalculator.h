@@ -9,6 +9,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+enum Axis {
+    x = 0,
+    y = 1,
+    total = 2
+};
+
+
 @interface MatrixCalculator : NSObject
 
 -(NSArray*) sumMatrix: (NSArray*) matrixOne
@@ -20,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSArray*) multiplyMatrix: (NSArray*) matrix
                     toScalar: (NSNumber*) scalar;
 
+-(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
 
 @end
 

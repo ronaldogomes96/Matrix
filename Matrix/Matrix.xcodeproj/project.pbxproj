@@ -40,6 +40,11 @@
 		D171DF5A26AB04A300222412 /* MatrixSubtractorCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */; };
 		D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */; };
+		D8754E6426AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D8754E6226AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h */; };
+		D8754E6526AEDD0D0011738C /* MatrixCalculator+MeanCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8754E6326AEDD0D0011738C /* MatrixCalculator+MeanCalculator.m */; };
+		D8754E6826AEE83A0011738C /* MatrixCalculator+GetColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = D8754E6626AEE83A0011738C /* MatrixCalculator+GetColumn.h */; };
+		D8754E6926AEE83A0011738C /* MatrixCalculator+GetColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = D8754E6726AEE83A0011738C /* MatrixCalculator+GetColumn.m */; };
+		D8754E6B26AEEDC40011738C /* MatrixMeanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8754E6A26AEEDC40011738C /* MatrixMeanTests.m */; };
 		D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */; };
 		D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */ = {isa = PBXBuildFile; fileRef = D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */ = {isa = PBXBuildFile; fileRef = D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */; };
@@ -136,6 +141,11 @@
 		D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixSubtractorCalculatorTests.m; sourceTree = "<group>"; };
 		D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+SumCalculator.h"; sourceTree = "<group>"; };
 		D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+SumCalculator.m"; sourceTree = "<group>"; };
+		D8754E6226AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+MeanCalculator.h"; sourceTree = "<group>"; };
+		D8754E6326AEDD0D0011738C /* MatrixCalculator+MeanCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+MeanCalculator.m"; sourceTree = "<group>"; };
+		D8754E6626AEE83A0011738C /* MatrixCalculator+GetColumn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+GetColumn.h"; sourceTree = "<group>"; };
+		D8754E6726AEE83A0011738C /* MatrixCalculator+GetColumn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+GetColumn.m"; sourceTree = "<group>"; };
+		D8754E6A26AEEDC40011738C /* MatrixMeanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixMeanTests.m; sourceTree = "<group>"; };
 		D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixSumCalculatorTests.m; sourceTree = "<group>"; };
 		D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+MultiplicationByScalar.h"; sourceTree = "<group>"; };
 		D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+MultiplicationByScalar.m"; sourceTree = "<group>"; };
@@ -260,6 +270,7 @@
 				D876733C26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m */,
 				D171DF5926AB04A300222412 /* MatrixSubtractorCalculatorTests.m */,
 				D876734526AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m */,
+				D8754E6A26AEEDC40011738C /* MatrixMeanTests.m */,
 				D14FF63A26A9A7DF00FEF6DD /* Info.plist */,
 			);
 			path = MatrixTests;
@@ -276,6 +287,10 @@
 				D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */,
 				D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */,
 				D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */,
+				D8754E6226AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h */,
+				D8754E6326AEDD0D0011738C /* MatrixCalculator+MeanCalculator.m */,
+				D8754E6626AEE83A0011738C /* MatrixCalculator+GetColumn.h */,
+				D8754E6726AEE83A0011738C /* MatrixCalculator+GetColumn.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -314,10 +329,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8754E6826AEE83A0011738C /* MatrixCalculator+GetColumn.h in Headers */,
 				D14FF65826A9AB4E00FEF6DD /* MatrixFiles.h in Headers */,
 				D876734326AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h in Headers */,
 				D14FF64E26A9AAAA00FEF6DD /* MatrixCreation.h in Headers */,
 				D83DB87F26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h in Headers */,
+				D8754E6426AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h in Headers */,
 				D14FF63B26A9A7DF00FEF6DD /* Matrix.h in Headers */,
 				D14FF65326A9AACE00FEF6DD /* MatrixEdition.h in Headers */,
 				D124E32226ABA37100E4EF10 /* MatrixCalculator+Subtractor.h in Headers */,
@@ -514,8 +531,10 @@
 				D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */,
 				D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */,
 				D14FF65426A9AACE00FEF6DD /* MatrixEdition.m in Sources */,
+				D8754E6526AEDD0D0011738C /* MatrixCalculator+MeanCalculator.m in Sources */,
 				D124E32326ABA37100E4EF10 /* MatrixCalculator+Subtractor.m in Sources */,
 				D14FF64F26A9AAAA00FEF6DD /* MatrixCreation.m in Sources */,
+				D8754E6926AEE83A0011738C /* MatrixCalculator+GetColumn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D876733D26AAE8DC00BC5A65 /* MatrixSumCalculatorTests.m in Sources */,
+				D8754E6B26AEEDC40011738C /* MatrixMeanTests.m in Sources */,
 				D876734626AB05A000BC5A65 /* MatrixMultiplicationByScalarTests.m in Sources */,
 				D14FF63926A9A7DF00FEF6DD /* MatrixTests.m in Sources */,
 				D171DF5A26AB04A300222412 /* MatrixSubtractorCalculatorTests.m in Sources */,
