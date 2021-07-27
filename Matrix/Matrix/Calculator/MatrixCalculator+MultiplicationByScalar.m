@@ -22,8 +22,6 @@
         for(NSNumber *element in [matrix objectAtIndex:i]) {
             
             double number = [element doubleValue];
-            //number = number * [scalar doubleValue];
-            //[[matrix objectAtIndex:i] replaceObjectAtIndex:j withObject:[NSNumber numberWithDouble:number]];
             
             [row addObject:[NSNumber numberWithDouble: number*[scalar doubleValue]]];
             ++j;
