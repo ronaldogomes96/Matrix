@@ -46,6 +46,9 @@ class ViewController: UIViewController {
         print(matrix.meanMatrix(mat4, axis: x))
         print("\(mat4) mean of columns")
         print(matrix.meanMatrix(mat4, axis: y))
+        
+        // Print
+        print(matrix.printMatrix(mat3))
     }
 }
 
