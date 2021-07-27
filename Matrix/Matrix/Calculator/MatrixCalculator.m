@@ -11,6 +11,7 @@
 #import "MatrixCalculator+MultiplicationByScalar.h"
 #import "MatrixCalculator+GetColumn.h"
 #import "MatrixCalculator+MeanCalculator.h"
+#import "MatrixCalculator+Print.h"
 
 @implementation MatrixCalculator
 
@@ -57,11 +58,11 @@
     NSException *nullException = [NSException exceptionWithName:@"NullException" reason:@"Passed null argument" userInfo:nil];
     
     //handle vector matrix
-    if ([multableMatrix firstObject] == NULL) {
+    if ([multableMatrix firstObject] == NULL || [[matrix firstObject] count] == 0) {
         @throw noMatrixException;
     }
     
-    if (matrix == NULL) {
+    if (matrix == NULL || [matrix count] == 0) {
         @throw nullException;
     }
     
@@ -77,6 +78,23 @@
         case total:
             return [self totalMean:multableMatrix]; 
     }
+}
+
+
+-(void) printMatrix:(NSArray*) matrix {
+    
+    NSException *nullException = [NSException exceptionWithName:@"NullException" reason:@"Passed null argument" userInfo:nil];
+    NSException *noMatrixException = [NSException exceptionWithName:@"NoMatrixException" reason:@"Passed an array, not an matrix" userInfo:nil];
+    
+    if ([matrix firstObject] == NULL || [[matrix firstObject] count] == 0) {
+        @throw noMatrixException;
+    }
+    
+    if (matrix == NULL || [matrix count] == 0) {
+        @throw nullException;
+    }
+    
+    [self print: matrix]; 
 }
 
 @end
