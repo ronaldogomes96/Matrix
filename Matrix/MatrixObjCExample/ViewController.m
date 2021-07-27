@@ -58,6 +58,10 @@
         }
         NSLog(@"\n");
     }
+    
+    // Mean
+    NSArray *resultMean = [matrix meanMatrix:matrixFour axis:total];
+    NSLog(@"%@", resultMean);
 }
 
 @end
