@@ -86,7 +86,7 @@
     
     
     //when
-    NSMutableArray *result = [self.matrixCalculator sumMatrix:self.matrixOne toMatrix:self.matrixTwo];
+    NSArray *result = [self.matrixCalculator sumMatrix:self.matrixOne toMatrix:self.matrixTwo];
     
     //then
     XCTAssertEqualObjects(result, expectedResult);

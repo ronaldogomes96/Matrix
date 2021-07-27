@@ -95,7 +95,7 @@
     [self.matrixTwo  insertObject:self.rowsFour atIndex:1];
     
     //when
-    NSMutableArray *result = [self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo];
+    NSArray *result = [self.matrixCalculator subtractionMatrix: self.matrixOne toMatrix:self.matrixTwo];
     
     //then
     XCTAssertEqualObjects(result, expectedResult);

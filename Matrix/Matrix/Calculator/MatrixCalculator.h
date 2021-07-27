@@ -18,13 +18,13 @@ enum Axis {
 
 @interface MatrixCalculator : NSObject
 
--(NSMutableArray*) sumMatrix: (NSMutableArray*) matrixOne
-                    toMatrix: (NSMutableArray*) matrixTwo;
+-(NSArray*) sumMatrix: (NSArray*) matrixOne
+                    toMatrix: (NSArray*) matrixTwo;
 
--(NSMutableArray*) subtractionMatrix: (NSMutableArray*) matrixOne
-              toMatrix: (NSMutableArray*) matrixTwo;
+-(NSArray*) subtractionMatrix: (NSArray*) matrixOne
+              toMatrix: (NSArray*) matrixTwo;
 
--(NSMutableArray*) multiplyMatrix: (NSMutableArray*) matrix
+-(NSArray*) multiplyMatrix: (NSArray*) matrix
                     toScalar: (NSNumber*) scalar;
 
 -(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
