@@ -29,6 +29,8 @@ enum Axis {
 
 -(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
 
+-(void) printMatrix: (NSArray*) matrix; 
+
 @end
 
 NS_ASSUME_NONNULL_END
