@@ -62,6 +62,9 @@
     // Mean
     NSArray *resultMean = [matrix meanMatrix:matrixFour axis:total];
     NSLog(@"%@", resultMean);
+    
+    // Print
+    [matrix printMatrix:matrixThree];
 }
 
 @end
