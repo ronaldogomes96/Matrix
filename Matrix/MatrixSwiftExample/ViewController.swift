@@ -38,6 +38,14 @@ class ViewController: UIViewController {
         // Multiplication for scalar
         print("\(mat1) x \(3)")
         print(matrix.multiplyMatrix(mat1, toScalar: 3))
+        
+        // Mean Calculator
+        print("\(mat4) mean")
+        print(matrix.meanMatrix(mat4, axis: total))
+        print("\(mat4) mean of lines")
+        print(matrix.meanMatrix(mat4, axis: x))
+        print("\(mat4) mean of columns")
+        print(matrix.meanMatrix(mat4, axis: y))
     }
 }
 
