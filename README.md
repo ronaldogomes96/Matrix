@@ -7,7 +7,7 @@
   ```
 git "git@github.com:ronaldogomes96/Matrix.git" ~> 1.0.0
 ```
-4. As Carthage doesn't work out of the box with Xcode 12, follow the steps in the [Carthage Workaround](https://github.com/Carthage/Carthage/blob/master/Documentation/Xcode12Workaround.md).
+4. As Carthage doesn't work out of the box with Xcode 12 follow the steps in the [Carthage Workaround](https://github.com/Carthage/Carthage/blob/master/Documentation/Xcode12Workaround.md).
 5. Drag `Carthage/Build/iOS/Matrix.framework` into your application target’s General > Linked Frameworks and Libraries.
 6. Add a New Run Script Phase for the application target’s Build Phases with
   ```
