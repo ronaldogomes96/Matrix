@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "MatrixCalculator"
   spec.version      = "1.0.0"
   spec.summary      = "A short description of Matrix."
+  spec.ios.deployment_target = "13.0"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -91,8 +92,9 @@ Framework that provides mathematical operations for matrices.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Matrix", "Matrix/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Matrix/**/*.{h,m}"
+  #spec.source_files  = "Matrix", "Matrix/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
