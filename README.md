@@ -21,3 +21,4 @@ $(SRCROOT)/Carthage/Build/iOS/Matrix.framework
 ```
 $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Matrix.framework
 ```
+9. If you are using Carthage for an application, select "Embed & Sign", otherwise "Do Not Embed". 
