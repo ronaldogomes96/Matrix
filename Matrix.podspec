@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Matrix"
+  spec.name         = "MatrixCalculator"
   spec.version      = "1.0.0"
   spec.summary      = "A short description of Matrix."
 
@@ -91,7 +91,7 @@ Framework that provides mathematical operations for matrices.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Matrix", "Matrix/**/*.{h,m}"
+  spec.source_files  = "MatrixCalculator", "MatrixCalculator/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
