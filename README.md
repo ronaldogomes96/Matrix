@@ -24,8 +24,8 @@ $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Matrix.framework
 9. If you are using Carthage for an application, select "Embed & Sign", otherwise "Do Not Embed". 
 
 ## Example
-```
-let matrix = MatrixCalculator()
+```swift
+    let matrix = MatrixCalculator()
     
     // Matrizes de exemplo
     let mat1 = [[1, 3]]
