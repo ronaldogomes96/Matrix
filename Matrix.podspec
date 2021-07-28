@@ -92,7 +92,7 @@ Framework that provides mathematical operations for matrices.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MatrixCalculator/**/*.{h,m}"
+  spec.source_files  = "Matrix/**/*.{h,m}"
   #spec.source_files  = "Matrix", "Matrix/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
