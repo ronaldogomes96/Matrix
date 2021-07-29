@@ -15,7 +15,7 @@
 
 @implementation MatrixCalculator
 
--(NSArray*) sumMatrix:(NSArray *) matrixOne toMatrix:(NSArray *) matrixTwo {
+-(double) sumMatrix:(NSArray *) matrixOne toMatrix:(NSArray *) matrixTwo {
     
     NSMutableArray* mutableMatrixOne = [NSMutableArray arrayWithArray:matrixOne];
     NSMutableArray* mutableMatrixTwo = [NSMutableArray arrayWithArray:matrixTwo];
@@ -24,7 +24,11 @@
     
     @try {
         result = [self sum:mutableMatrixOne toMatrix:mutableMatrixTwo];
-        return result;
+        
+        NSArray *resultArray = [NSArray arrayWithObject: result]
+        
+        
+        return [resultArray doubleValue];
         
     } @catch (NSException *exception) {
         @throw exception; 
