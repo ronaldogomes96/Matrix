@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "Matrix",
-            path: "Matrix",
+            path: "Matrix/Matrix",
             publicHeadersPath: "")
     ]
 )
