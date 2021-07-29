@@ -107,6 +107,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D1464C3A26B2D91B00A0A58E /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				D14FF64626A9AA1000FEF6DD /* MatrixCalculator.h */,
+				D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */,
+				D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */,
+				D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */,
+				D8754E6226AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h */,
+				D8754E6626AEE83A0011738C /* MatrixCalculator+GetColumn.h */,
+				D88AED7326B03B6500F4284D /* MatrixCalculator+Print.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
 		D14FF62026A9A7DF00FEF6DD = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +143,7 @@
 		D14FF62C26A9A7DF00FEF6DD /* Matrix */ = {
 			isa = PBXGroup;
 			children = (
+				D1464C3A26B2D91B00A0A58E /* Include */,
 				D14FF62D26A9A7DF00FEF6DD /* Matrix.h */,
 				D14FF62E26A9A7DF00FEF6DD /* Info.plist */,
 				D14FF64A26A9AA2C00FEF6DD /* Calculator */,
@@ -156,19 +171,12 @@
 		D14FF64A26A9AA2C00FEF6DD /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D14FF64626A9AA1000FEF6DD /* MatrixCalculator.h */,
 				D14FF64726A9AA1000FEF6DD /* MatrixCalculator.m */,
-				D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */,
 				D124E32126ABA37100E4EF10 /* MatrixCalculator+Subtractor.m */,
-				D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */,
 				D83DB87E26A9B74700FC1907 /* MatrixCalculator+SumCalculator.m */,
-				D876734126AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.h */,
 				D876734226AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m */,
-				D8754E6226AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h */,
 				D8754E6326AEDD0D0011738C /* MatrixCalculator+MeanCalculator.m */,
-				D8754E6626AEE83A0011738C /* MatrixCalculator+GetColumn.h */,
 				D8754E6726AEE83A0011738C /* MatrixCalculator+GetColumn.m */,
-				D88AED7326B03B6500F4284D /* MatrixCalculator+Print.h */,
 				D88AED7426B03B6500F4284D /* MatrixCalculator+Print.m */,
 			);
 			path = Calculator;

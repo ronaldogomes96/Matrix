@@ -15,6 +15,6 @@ let package = Package(
         .target(
             name: "Matrix",
             path: "Matrix/Matrix",
-            publicHeadersPath: "")
+            publicHeadersPath: "Include")
     ]
 )
