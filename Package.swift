@@ -9,7 +9,12 @@ let package = Package(
     products: [
         .library(
             name: "Matrix",
-            targets: ["Matrix"]),
+            targets: ["Matrix"]
+        ),
+        .library(
+            name: "MatrixCalculatorSwift",
+            targets: ["Matrix", "MatrixCalculatorSwift"]
+        )
     ],
     targets: [
         .target(
@@ -18,7 +23,8 @@ let package = Package(
             publicHeadersPath: "Include"),
         .target(
             name: "MatrixSwift",
-            path: "Matrix/Matrix",
-            publicHeadersPath: "Include")
+            dependencies: ["Matrix"],
+            path: "MatrixCalculatorSwift"
+        )
     ]
 )

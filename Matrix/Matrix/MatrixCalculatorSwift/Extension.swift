@@ -1,4 +1,6 @@
-import Foundation
+
+#if SWIFT_PACKAGE
+import Matrix
 
 extension MatrixCalculator {
 
@@ -12,3 +14,5 @@ extension MatrixCalculator {
         print(result)
     }
 }
+
+#endif
