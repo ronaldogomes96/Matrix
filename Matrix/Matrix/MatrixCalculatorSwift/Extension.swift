@@ -1,5 +1,6 @@
 
 #if SWIFT_PACKAGE
+
 import Matrix
 
 extension MatrixCalculator {
