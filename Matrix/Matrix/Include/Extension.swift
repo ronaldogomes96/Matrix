@@ -6,4 +6,10 @@ extension MatrixCalculator {
         
         __printMatrix(matrix)
     }
+    
+    public func sum(matrixOne: [[Double]], toMatrix matrixTwo: [[Double]]) {
+        
+        __printMatrix(__sumMatrix(matrixOne, toMatrix: matrixTwo))
+    }
+    
 }
