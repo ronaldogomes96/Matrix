@@ -19,15 +19,15 @@ enum Axis {
 @interface MatrixCalculator : NSObject
 
 -(NSArray*) sumMatrix: (NSArray*) matrixOne
-                    toMatrix: (NSArray*) matrixTwo NS_REFINED_FOR_SWIFT;
+                    toMatrix: (NSArray*) matrixTwo;
 
 -(NSArray*) subtractionMatrix: (NSArray*) matrixOne
-              toMatrix: (NSArray*) matrixTwo NS_REFINED_FOR_SWIFT;
+              toMatrix: (NSArray*) matrixTwo;
 
 -(NSArray*) multiplyMatrix: (NSArray*) matrix
-                    toScalar: (NSNumber*) scalar NS_REFINED_FOR_SWIFT;
+                    toScalar: (NSNumber*) scalar;
 
--(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate NS_REFINED_FOR_SWIFT;
+-(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
 
 -(void) printMatrix: (NSArray*) matrix NS_REFINED_FOR_SWIFT; 
 

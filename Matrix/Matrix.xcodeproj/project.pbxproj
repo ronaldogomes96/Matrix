@@ -35,6 +35,7 @@
 		D88AED7526B03B6500F4284D /* MatrixCalculator+Print.h in Headers */ = {isa = PBXBuildFile; fileRef = D88AED7326B03B6500F4284D /* MatrixCalculator+Print.h */; };
 		D88AED7626B03B6500F4284D /* MatrixCalculator+Print.m in Sources */ = {isa = PBXBuildFile; fileRef = D88AED7426B03B6500F4284D /* MatrixCalculator+Print.m */; };
 		D88AED7826B03CF300F4284D /* PrintMatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88AED7726B03CF300F4284D /* PrintMatrixTests.m */; };
+		D88D346F26B41E0B00D405F9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D346E26B41E0B00D405F9 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		D88AED7326B03B6500F4284D /* MatrixCalculator+Print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixCalculator+Print.h"; sourceTree = "<group>"; };
 		D88AED7426B03B6500F4284D /* MatrixCalculator+Print.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MatrixCalculator+Print.m"; sourceTree = "<group>"; };
 		D88AED7726B03CF300F4284D /* PrintMatrixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintMatrixTests.m; sourceTree = "<group>"; };
+		D88D346E26B41E0B00D405F9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				D8754E6226AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h */,
 				D8754E6626AEE83A0011738C /* MatrixCalculator+GetColumn.h */,
 				D88AED7326B03B6500F4284D /* MatrixCalculator+Print.h */,
+				D88D346E26B41E0B00D405F9 /* Extension.swift */,
 			);
 			path = Include;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				D14FF64926A9AA1000FEF6DD /* MatrixCalculator.m in Sources */,
 				D88AED7626B03B6500F4284D /* MatrixCalculator+Print.m in Sources */,
 				D83DB88026A9B74700FC1907 /* MatrixCalculator+SumCalculator.m in Sources */,
+				D88D346F26B41E0B00D405F9 /* Extension.swift in Sources */,
 				D876734426AAFF7500BC5A65 /* MatrixCalculator+MultiplicationByScalar.m in Sources */,
 				D14FF65426A9AACE00FEF6DD /* MatrixEdition.m in Sources */,
 				D8754E6526AEDD0D0011738C /* MatrixCalculator+MeanCalculator.m in Sources */,
@@ -539,6 +543,7 @@
 		D14FF64226A9A7DF00FEF6DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69Y77S7YQP;
 				INFOPLIST_FILE = MatrixTests/Info.plist;
@@ -556,6 +561,7 @@
 		D14FF64326A9A7DF00FEF6DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69Y77S7YQP;
 				INFOPLIST_FILE = MatrixTests/Info.plist;
