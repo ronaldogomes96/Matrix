@@ -5,8 +5,7 @@
 extension MatrixCalculator {
 
     public func print(matrix: [[Double]]) {
-        
-        __printMatrix(matrix)
+        git__printMatrix(matrix)
     }
 }
 
