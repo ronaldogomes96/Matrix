@@ -5,7 +5,7 @@
 //  Created by Jéssica Araujo on 22/07/21.
 //
 
-#import "MatrixCalculator.h"
+#import <MatrixCalculator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
