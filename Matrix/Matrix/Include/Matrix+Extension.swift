@@ -9,14 +9,11 @@ import Foundation
 
 extension MatrixCalculator {
     
-    public func sum(_ matrixOne: [[Double]], toMatrix matrixTwo: [[Double]]) -> Double {
+    public func sum(_ matrixOne: [[Double]], toMatrix matrixTwo: [[Double]]) {
         
-        let result = __sumMatrix(matrixOne, toMatrix: matrixTwo)
-        
-        return result
+        __sumMatrix(matrixOne, toMatrix: matrixTwo)
         
     }
-    
     
     public func print(matrix: [[Double]]) {
         
