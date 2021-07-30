@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "MatrixCalculatorSwift",
             dependencies: ["Matrix"],
-            path: "Matrix/MatrixCalculatorSwift"
+            path: "MatrixCalculatorSwift"
         )
     ]
 )
