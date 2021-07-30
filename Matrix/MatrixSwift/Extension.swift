@@ -1,4 +1,6 @@
-@_exported import Matrix
+
+
+//@_exported import Matrix
 
 extension MatrixCalculator {
     
@@ -7,8 +9,8 @@ extension MatrixCalculator {
     }
     
     public func mean(matrix: [[Double]]) {
-        print(__meanMatrix(matrix, axis: x))
-        
+       var result =  __meanMatrix(matrix, axis: x)
+        print(result)
     }
 }
 
