@@ -12,8 +12,8 @@ let package = Package(
             targets: ["Matrix"]
         ),
         .library(
-            name: "MatrixCalculatorSwift",
-            targets: ["Matrix", "MatrixCalculatorSwift"]
+            name: "MatrixSwift",
+            targets: ["Matrix", "MatrixSwift"]
         )
     ],
     targets: [
@@ -22,9 +22,9 @@ let package = Package(
             path: "Matrix/Matrix",
             publicHeadersPath: "Include"),
         .target(
-            name: "MatrixCalculatorSwift",
+            name: "MatrixSwift",
             dependencies: ["Matrix"],
-            path: "Matrix/Matrix/MatrixCalculatorSwift"
+            path: "Matrix/MatrixSwift"
         )
     ]
 )
