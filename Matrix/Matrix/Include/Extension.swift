@@ -8,7 +8,7 @@ extension MatrixCalculator {
     }
     
 //    public func mean(m: [[Double]]) {
-//        
+//
 //        Swift.print(__meanMatrix(m, axis: x))
 //    }
 }
