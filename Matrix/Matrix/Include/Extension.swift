@@ -7,9 +7,8 @@ extension MatrixCalculator {
         __printMatrix(matrix)
     }
     
-    public func sum(matrixOne: [[Double]], toMatrix matrixTwo: [[Double]]) {
+    public func mean(m: [[Double]]) {
         
-        __sumMatrix(matrixOne, toMatrix: matrixTwo)
+        Swift.print(__meanMatrix(m, axis: x))
     }
-    
 }
