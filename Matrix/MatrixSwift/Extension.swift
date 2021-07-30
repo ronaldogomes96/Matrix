@@ -4,7 +4,7 @@
 
 extension MatrixCalculator {
 
-    public fnc print(matrix: [[Double]]) {
+    public func print(matrix: [[Double]]) {
         
         __printMatrix(matrix)
     }
