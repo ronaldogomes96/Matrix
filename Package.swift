@@ -23,7 +23,7 @@ let package = Package(
             publicHeadersPath: "Include"),
         .target(
             name: "MatrixSwift",
-            dependencies: ["Matrix"],
+            //dependencies: ["Matrix"],
             path: "Matrix/MatrixSwift"
         )
     ]
