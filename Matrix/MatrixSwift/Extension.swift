@@ -1,6 +1,5 @@
 
-
-//@_exported import Matrix
+@_exported import Matrix
 
 extension MatrixCalculator {
     

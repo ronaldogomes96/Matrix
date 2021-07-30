@@ -10,11 +10,11 @@ let package = Package(
         .library(
             name: "Matrix",
             targets: ["Matrix"]
-        ),
-        .library(
-            name: "MatrixSwift",
-            targets: ["Matrix", "MatrixSwift"]
         )
+//        .library(
+//            name: "MatrixSwift",
+//            targets: ["Matrix", "MatrixSwift"]
+//        )
     ],
     targets: [
         .target(
