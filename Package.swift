@@ -15,6 +15,10 @@ let package = Package(
         .target(
             name: "Matrix",
             path: "Matrix/Matrix",
+            publicHeadersPath: "Include"),
+        .target(
+            name: "MatrixSwift",
+            path: "Matrix/Matrix",
             publicHeadersPath: "Include")
     ]
 )
