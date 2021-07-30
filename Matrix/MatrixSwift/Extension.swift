@@ -8,6 +8,7 @@ extension MatrixCalculator {
     
     public func mean(matrix: [[Double]]) {
         print(__meanMatrix(matrix, axis: x))
+        
     }
 }
 
