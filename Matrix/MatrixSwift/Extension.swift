@@ -3,10 +3,8 @@
 @_exported import Matrix
 
 extension MatrixCalculator {
-
     public func print(matrix: [[Double]]) {
-        git__printMatrix(matrix)
+        __printMatrix(matrix)
     }
 }
-
 #endif
