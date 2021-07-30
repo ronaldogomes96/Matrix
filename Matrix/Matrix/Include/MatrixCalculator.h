@@ -28,7 +28,7 @@ enum Axis {
 -(NSArray*) multiplyMatrix: (NSArray*) matrix
                     toScalar: (NSNumber*) scalar;
 
--(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate NS_REFINED_FOR_SWIFT;
+-(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
 
 -(void) printMatrix: (NSArray*) matrix NS_REFINED_FOR_SWIFT; 
 
