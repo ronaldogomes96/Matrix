@@ -123,7 +123,6 @@
 		D1464C3A26B2D91B00A0A58E /* Include */ = {
 			isa = PBXGroup;
 			children = (
-				D88D346E26B41E0B00D405F9 /* Extension.swift */,
 				D14FF64626A9AA1000FEF6DD /* MatrixCalculator.h */,
 				D124E32026ABA37100E4EF10 /* MatrixCalculator+Subtractor.h */,
 				D83DB87D26A9B74700FC1907 /* MatrixCalculator+SumCalculator.h */,
@@ -228,6 +227,7 @@
 		D88D347926B427F900D405F9 /* MatrixSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D88D346E26B41E0B00D405F9 /* Extension.swift */,
 				D88D347A26B427F900D405F9 /* MatrixSwift.h */,
 				D88D347B26B427F900D405F9 /* Info.plist */,
 			);
