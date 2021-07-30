@@ -119,7 +119,6 @@
 				D8754E6226AEDD0D0011738C /* MatrixCalculator+MeanCalculator.h */,
 				D8754E6626AEE83A0011738C /* MatrixCalculator+GetColumn.h */,
 				D88AED7326B03B6500F4284D /* MatrixCalculator+Print.h */,
-				D88D346E26B41E0B00D405F9 /* Extension.swift */,
 			);
 			path = Include;
 			sourceTree = "<group>";
@@ -146,6 +145,7 @@
 		D14FF62C26A9A7DF00FEF6DD /* Matrix */ = {
 			isa = PBXGroup;
 			children = (
+				D88D346E26B41E0B00D405F9 /* Extension.swift */,
 				D1464C3A26B2D91B00A0A58E /* Include */,
 				D14FF62D26A9A7DF00FEF6DD /* Matrix.h */,
 				D14FF62E26A9A7DF00FEF6DD /* Info.plist */,
