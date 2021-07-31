@@ -9,6 +9,6 @@ FOUNDATION_EXPORT const unsigned char MatrixVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <Matrix/PublicHeader.h>
 
 #import <Matrix/MatrixCalculator.h>
-#import <Matrix/MatrixCreation.h>
-#import <Matrix/MatrixEdition.h>
-#import <Matrix/MatrixFiles.h>
+//#import <Matrix/MatrixCreation.h>
+//#import <Matrix/MatrixEdition.h>
+//#import <Matrix/MatrixFiles.h>

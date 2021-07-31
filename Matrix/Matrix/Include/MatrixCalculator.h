@@ -29,7 +29,7 @@ enum Axis {
 
 -(NSArray*) meanMatrix: (NSArray*) matrix axis: (enum Axis) coordinate;
 
--(void) printMatrix: (NSArray*) matrix; 
+-(void) printMatrix: (NSArray*) matrix NS_REFINED_FOR_SWIFT; 
 
 @end
 
